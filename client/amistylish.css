@@ -1,0 +1,43 @@
+.thicc {
+    width: 100%;
+}
+
+* {
+    box-sizing: content-box;
+}
+
+body {
+    padding: 8% 0 0;
+    background: rgb(41, 33, 74);
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Inria Sans', sans-serif;
+}
+
+
+.container {
+    border-radius: 50px;
+    box-shadow: 0 70px 63px -60px #000000;
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 60vw;
+    margin: 0 auto 100px;
+    padding: 60px;
+}
+
+form {
+    border: #000000;
+
+}
+
+.card {
+    margin: 10px;
+    float: left;
+}
+
+.clearfix {
+    overflow: hidden;
+}
